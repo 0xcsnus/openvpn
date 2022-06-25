@@ -23,7 +23,7 @@ mkdir /etc/openvpn/easy-rsa
 
 cp -rf /usr/share/easy-rsa/3.0/* /etc/openvpn/easy-rsa
 
-STR='export KEY_COUNTRY="US"\nexport KEY_PROVINCE="NY"\nexport KEY_CITY="New York"\nexport KEY_ORG="DigitalOcean"\nexport KEY_EMAIL="sammy@example.com"\nexport KEY_OU="Community"\nexport KEY_NAME="server"\nexport KEY_CN=openvpn.example.com"'
+STR='export KEY_COUNTRY="US"\nexport KEY_PROVINCE="NY"\nexport KEY_CITY="New York"\nexport KEY_ORG="DigitalOcean"\nexport KEY_EMAIL="sammy@example.com"\nexport KEY_OU="Community"\nexport KEY_NAME="server"\nexport KEY_CN="openvpn.example.com"'
 
 echo -e $STR >> /etc/openvpn/easy-rsa/vars
 
